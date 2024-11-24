@@ -33,44 +33,43 @@ body{
   }
 
   .verde{
-    background-color: #1a4628;
+    background-color: #1e3932;
     color: white;
     display: flex;
     flex-direction: row;
     margin: 30px;
-    text-align: justify;
-    align-items: center;
   }
 
   .verde img{
-    height: 400px;
+    width : 35vw;
+    height: auto;
   }
 
   .azul{
-    background-color: #2225b6e7;
+    background-color: #0044b4;
     color: white;
     display: flex;
     flex-direction: row;
     margin: 30px;
-    justify-content: center;
-    align-items: center;
 
   }
 
   .azul img{
-    height: 400px;
+    width : 35vw;
+    height: auto;
   }
 
   .rojo{
-    background-color: #cc0d0de7;
+    background-color: #d50032;
     color: white;
     display: flex;
     flex-direction: row;
     margin: 30px;
     text-align: justify;
-    align-items: center;
   }
 
   .rojo img{
-    height: 400px;
+    width : 35vw;
+    height: auto;
   }
+
