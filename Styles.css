@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction:column;
+
+    
+    
+    align-items: center;
+}
+
+
+.nav-bar{
+    background-color: rgb(236, 234, 234);
+    display: flex; 
+}
+
+.nav-bar .logo{
+    height: 5vh;
+}
+
+.nav-boton {
+    /*background-color: transparent;*/
+    font-size: 18px;  
+    border: none;  
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .nav-boton:hover {
+    background-color: transparent;
+    color: #2c9c22d8;
+  }
+
+  .verde{
+    background-color: #034403;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+
+  .verde img{
+    height: 400px;
+  }
