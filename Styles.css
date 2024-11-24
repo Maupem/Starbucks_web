@@ -31,7 +31,7 @@ body{
   }
 
   .verde{
-    background-color: #034403;
+    background-color: #1a4628;
     color: white;
     display: flex;
     flex-direction: row;
@@ -39,5 +39,29 @@ body{
   }
 
   .verde img{
+    height: 400px;
+  }
+
+  .azul{
+    background-color: #2225b6e7;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+
+  .azul img{
+    height: 400px;
+  }
+
+  .rojo{
+    background-color: #cc0d0de7;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+
+  .rojo img{
     height: 400px;
   }
