@@ -41,8 +41,8 @@ body{
   }
 
   .verde img{
-    width : 35vw;
-    height: auto;
+    height: 400px;
+    width: 675px;
   }
 
   .azul{
@@ -55,8 +55,8 @@ body{
   }
 
   .azul img{
-    width : 35vw;
-    height: auto;
+    height: 400px;
+    width: 675px;
   }
 
   .rojo{
@@ -65,11 +65,48 @@ body{
     display: flex;
     flex-direction: row;
     margin: 30px;
-    text-align: justify;
   }
 
   .rojo img{
-    width : 35vw;
+    height: 400px;
+    width: 675px;
+  }
+
+  .text {
+    padding : 5%;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+  }
+
+  .vertical{
+    display: flex;
+    flex-direction: row;
+  }
+  .rosa{
+    background-color: #fabbe7d7;
+    color: rgba(255, 75, 75, 0.904);
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .rosa img{
+    width: 400px;
     height: auto;
   }
 
+  .azul2{
+    background-color: #bbe8fad7;
+    color: rgba(27, 42, 177, 0.904);
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .azul2 img{
+    width: 400px;
+    height: auto;
+  }
