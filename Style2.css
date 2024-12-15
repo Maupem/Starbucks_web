@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.nav-bar{
+    background-color: rgb(236, 234, 234);
+    display: flex; 
+}
+
+.nav-bar .logo{
+    height: 5vh;
+}
+
+.nav-boton {
+    /*background-color: transparent;*/
+    font-size: 18px;  
+    border: none;  
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .nav-boton:hover {
+    background-color: transparent;
+    color: #2c9c22d8;
+  }
+
+  .left {
+    width: 35%;
+    background-color: #1e3932;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.left .buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.left .buttons button:hover {
+    background-color: white;
+    color: #00703C;
+}
+
+.right {
+    flex: 1;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.right h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.right .features div {
+    text-align: center;
+    max-width: 200px;
+}
+
+.right .features div img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.right .features div p {
+    font-size: 1rem;
+}
